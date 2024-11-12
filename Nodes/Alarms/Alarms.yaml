@@ -1,0 +1,284 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=84e7bba10dcca936b2a6c665435aec4c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b9005dc8befe82f11e846b7435bf26a9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=6b804498b34dacb4541fdfa322aabaad
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=3fe488e1d9a622b08b291a08ad6f1c6b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
+  - Name: AlmNumb
+    Id: g=452dace438333e073ec7ec19a8211710
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+- Name: DigitalAlarm2
+  Id: g=6a039851d6aeb8d4d9664fc9922b3adf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d2fe902caecaa268d0385d67e2da13b3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d1ba9e9631e26e97b677058f80d52716
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=76d7903b06963566cb49dc0fc63b898b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
+  - Name: AlmNumb
+    Id: g=af82bfe06523d2e1cfffe64ab5c10136
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+- Name: DigitalAlarm3
+  Id: g=0c07a712f34d80836cd2c9cfe563d6cf
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=38ea46ec87592f73ce50510534cababb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=859fe7f3778c9c09703b6603c9ad7f9a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=467ad071b5cb93745e84b6a25cc46450
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
+  - Name: AlmNumb
+    Id: g=944f3a9c4c9e732ec59ad63434a4f034
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+- Name: DigitalAlarm4
+  Id: g=b3a560faa06a7f4ca2d4fa2b436474d2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=477c3ac49e65908304448a55f3e16de4
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3112ebb49b54ef03e0cedad6170cc04c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=acd1cd4f13e473c2790c24be021f35c5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
+  - Name: AlmNumb
+    Id: g=07d7cbf800174e7d7886494429d43218
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+- Name: DigitalAlarm5
+  Id: g=649fef1da95f10d4042ac9bfd547d1be
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=b5e49307c65b96fb7070832cddb64a19
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4502f155d3ee7ba563e5f9fd288e304f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=50d565af8cfc909f14ab6cbeeb5d5a2e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=154
+    Direction: Forward
+  - Name: AlmNumb
+    Id: g=032ee346ed919fd182dbe687e70f37c8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5

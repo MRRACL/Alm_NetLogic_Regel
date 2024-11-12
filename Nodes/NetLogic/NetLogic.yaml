@@ -1,0 +1,21 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: Alarm_Net
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: EvalAlarmInt
+  - Name: AlmInt
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alm_Int"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
